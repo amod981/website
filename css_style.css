@@ -55,6 +55,7 @@ font-family: Verdana, Georgia, serif;
 margin: 10px;
 padding: 10px;
 width: 200px;
+height: 200px;
 float: right;
 font-size: 110%;
 }
@@ -62,27 +63,40 @@ font-size: 110%;
 .sideleft {
 font-size: 20px;
 margin: 10px;
-width: 500px;
 float: left;
 }
 
 .sideleft ul{
-  list-style: none ;
+  background-color: skyblue;
+  border-top: 2px solid red ;
+  border-bottom: 2px solid red ;
+  padding-left: 0px;
+
 }
 
-.sideleft ul li
-{
-  background-color: skyblue;
-  border: 2px solid red ;
-  text-align: center;
+.sideleft ul li{
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
+
+.sideleft ul li a::before{
+  content: '*  ';
+  color: red;
+  font-weight: bold;
 }
 
 
 .sideleft ul li a
 {
+  display: inline-block;
   text-decoration: none;
+  width: 400px;
   color: black;
+}
 
+.sideleft ul li :hover{
+  background-color: white;
+  color:black;
 }
 
 .content{
