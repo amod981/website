@@ -1,0 +1,99 @@
+body {
+background-color: #DAB6B6;
+font-size: 10px;
+}
+
+#header {
+background-color: #5C755E;
+font-family: Verdana, Georgia, serif;
+margin: 10px;
+height: 90px;
+border-right: 10px;
+}
+
+
+#navbar ul {
+list-style-type: none;
+background-color: #000;
+text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: #000;
+}
+
+#navbar ul li a:hover{
+  background-color: white;
+  color: black;
+}
+.main {
+background-color: #E5E4D7;
+font-family: Verdana, Georgia, serif;
+margin: 10px;
+padding: 10px;
+font-size: 110%;
+}
+
+h1 {
+color: #ce282e;
+font-size: 120%;
+}
+
+.sideright {
+background-color: #E5E4D7;
+font-family: Verdana, Georgia, serif;
+margin: 10px;
+padding: 10px;
+width: 200px;
+float: right;
+font-size: 110%;
+}
+
+.sideleft {
+font-size: 20px;
+margin: 10px;
+width: 500px;
+float: left;
+}
+
+.sideleft ul{
+  list-style: none ;
+}
+
+.sideleft ul li
+{
+  background-color: skyblue;
+  border: 2px solid red ;
+  text-align: center;
+}
+
+
+.sideleft ul li a
+{
+  text-decoration: none;
+  color: black;
+
+}
+
+.content{
+  margin-left: 520px;
+  padding: 0px 20px,
+  margin: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.content p{
+  font-size: 20px;
+  background-color: white;
+}
